@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    background-color: #FAFAFA;
+}
+
+#top {
+    position: relative;
+}
+
+#topimg {
+    opacity: 0.6;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.colorfilterbase {
+    margin: 0px 0px 0px 0px;
+    background-color: whitesmoke;
+}
+
+#title {
+    position: absolute;
+    background-color: rgba(255,255,255,0.7);
+    bottom: 50%;
+    left: 25%;
+    right: 25%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu ul {
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+    right: 25%;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+    padding-left: 50px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.manumain {
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+}
+
+.menumain h2 {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.manumain ul {
+    list-style: none;
+}
+
+.iconwraper {
+    display: inline-block;
+}
+
+.iconwraper div {
+    display: table-cell;
+}
+
+.iconwraper p {
+    margin: 0px 9px 0px 0px;
+}
+
+.iconwraper a:active {
+    color: black;
+}
+
+.iconwraper a:visited {
+    color: black;
+}
+
+.iconfirst {
+    padding-right: 50px;
+}
+
+.iconfirst a {
+    text-decoration: none;
+}
+
+.iconfirst a:hover {
+    color: palevioletred;
+}
+
+.iconsecond a:hover {
+    color: darkorange;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+
